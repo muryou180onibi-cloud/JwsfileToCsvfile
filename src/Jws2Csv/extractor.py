@@ -1,4 +1,5 @@
-from struct import unpack
+import olefile  # type: ignore
+from struct import pack, unpack
 from typing import Iterator, List, Tuple
 from olefile import OleFileIO
 
