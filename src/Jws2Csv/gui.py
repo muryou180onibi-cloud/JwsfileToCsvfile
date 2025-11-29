@@ -1,7 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import filedialog
-from extractor import Extractor
+from src.Jws2Csv.extractor import Extractor
 from time import sleep
 
 def select_folder():
