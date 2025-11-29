@@ -1,6 +1,6 @@
 import os
 from typing import List, Tuple
-from extractor import Extractor
+from Jws2Csv.extractor import Extractor
 
 
 def main() -> None:
